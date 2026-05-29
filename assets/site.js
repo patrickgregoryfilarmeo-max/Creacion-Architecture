@@ -66,28 +66,27 @@
   if (footer) {
     footer.innerHTML = `
       <footer class="site-footer">
-        <div class="footer-inner">
-          <div>
-            <h3>Creacion Architecture</h3>
-            <p>design@creacionarchitecture.com<br>Quezon City<br>+639272463244</p>
-          </div>
-          <div class="socials" aria-label="Social links">
-            <a href="https://facebook.com/creacionarchitecture" target="_blank" rel="noopener" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/creacionarchitecture/" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
-            <a href="https://wa.me/+639272463244" target="_blank" rel="noopener" aria-label="WhatsApp">
-              <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUA4dVbL-W8iI75cta-4glx0Wzouqd2ffbeSS_Xxbabljq6KvsZbiSNhUtbAEuCrzo6Du5_tokAFwJmgOXIPwHGv-onHHna7J2GNGjdB0-qe6_NJZrE5i-y3" alt="WhatsApp">
-            </a>
-            <a href="https://www.facebook.com/messages/t/567093839824926" target="_blank" rel="noopener" aria-label="Messenger">
-              <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUC3pNROvz_XF30M7EUW5ViJSIhyjAgR159tZSFb9a6IZWEPHEtDzgWyAYuC1786x2bvyQB1ueeF51We0D4_LLRA-cYuEn6dvN-3-Idq3FbD9XYLyN6ipQWo" alt="Messenger">
-            </a>
+        <div class="footer-main">
+          <a class="footer-logo" href="/home" aria-label="Creacion Architecture home">
+            <img src="/assets/images/footer-logo.png" alt="Creacion Architecture">
+          </a>
+          <div class="footer-contact">
+            <p>design@creacionarchitecture.com</p>
+            <p>Quezon City</p>
+            <p>+639272463244</p>
           </div>
         </div>
-        <div class="site-meta">
-          <span>Page updated</span>
-          <span>Google Sites</span>
-          <span>Report abuse</span>
+        <p class="fine-print">Copyright &copy; 2026 Creacion Architecture. All Rights Reserved.</p>
+        <div class="socials" aria-label="Social links">
+          <a href="https://facebook.com/creacionarchitecture" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a href="https://www.instagram.com/creacionarchitecture/" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+          <a href="https://wa.me/+639272463244" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUA4dVbL-W8iI75cta-4glx0Wzouqd2ffbeSS_Xxbabljq6KvsZbiSNhUtbAEuCrzo6Du5_tokAFwJmgOXIPwHGv-onHHna7J2GNGjdB0-qe6_NJZrE5i-y3" alt="WhatsApp">
+          </a>
+          <a href="https://www.facebook.com/messages/t/567093839824926" target="_blank" rel="noopener" aria-label="Messenger">
+            <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUC3pNROvz_XF30M7EUW5ViJSIhyjAgR159tZSFb9a6IZWEPHEtDzgWyAYuC1786x2bvyQB1ueeF51We0D4_LLRA-cYuEn6dvN-3-Idq3FbD9XYLyN6ipQWo" alt="Messenger">
+          </a>
         </div>
-        <div class="footer-inner fine-print">Copyright &copy; 2026 Creacion Architecture. All Rights Reserved.</div>
       </footer>
     `;
   }
