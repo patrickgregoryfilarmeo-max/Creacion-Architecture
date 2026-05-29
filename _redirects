@@ -1,6 +1,4 @@
-/ /home 301
-/index.html /home 301
-/home /home.html 200
+/home /index.html 200
 /about /about.html 200
 /services /services.html 200
 /projects /projects.html 200
