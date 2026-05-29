@@ -66,6 +66,11 @@ p {
   padding: 12px 0;
 }
 
+.homepage .nav {
+  width: 100%;
+  padding: 12px 38px;
+}
+
 .brand {
   display: grid;
   gap: 2px;
@@ -101,6 +106,10 @@ p {
   font-size: 0.9rem;
   font-weight: 300;
   text-transform: uppercase;
+}
+
+.homepage .nav-links {
+  margin-left: auto;
 }
 
 .nav-links a {
@@ -163,10 +172,11 @@ p {
 }
 
 .search-mark {
-  display: inline-flex;
+  position: relative;
+  display: inline-block;
+  flex: 0 0 auto;
   width: 18px;
   height: 18px;
-  overflow: hidden;
   border: 1.5px solid currentColor;
   border-radius: 999px;
   text-indent: -999px;
@@ -174,13 +184,16 @@ p {
 }
 
 .search-mark::after {
-  width: 7px;
+  position: absolute;
+  right: -5px;
+  bottom: -2px;
+  width: 8px;
   height: 1.5px;
-  margin-top: 13px;
-  margin-left: 11px;
+  border-radius: 999px;
   background: currentColor;
   content: "";
   transform: rotate(45deg);
+  transform-origin: left center;
 }
 
 .menu-toggle {
