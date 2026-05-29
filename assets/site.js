@@ -2,8 +2,8 @@
   const navItems = [
     ["Home", "/home"],
     ["About", "/about"],
-    ["Services", "/services"],
     ["Projects", "/projects"],
+    ["Services", "/services"],
     ["Contact", "/contact"]
   ];
 
@@ -17,7 +17,7 @@
         <nav class="nav" aria-label="Main navigation">
           <a class="brand" href="/home" aria-label="Creacion Architecture home">
             Creacion Architecture
-            <small>Design and Consultancy</small>
+            <small>Architecture &amp; Design Studio</small>
           </a>
           <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
           <div class="nav-links" id="main-nav">
@@ -27,6 +27,7 @@
                 return `<a href="${href}" ${current ? 'aria-current="page"' : ""}>${label}</a>`;
               })
               .join("")}
+            <span class="search-mark" aria-hidden="true">Search</span>
           </div>
         </nav>
       </div>
@@ -47,7 +48,7 @@
         <div class="footer-inner">
           <div>
             <h3>Creacion Architecture</h3>
-            <p>design@creacionarchitecture.com<br>Quezon City<br>+63 927 246 3244</p>
+            <p>design@creacionarchitecture.com<br>Quezon City<br>+639272463244</p>
           </div>
           <div class="socials" aria-label="Social links">
             <a href="https://facebook.com/creacionarchitecture" target="_blank" rel="noopener">Facebook</a>
@@ -55,6 +56,11 @@
             <a href="https://wa.me/+639272463244" target="_blank" rel="noopener">WhatsApp</a>
             <a href="https://www.facebook.com/messages/t/567093839824926" target="_blank" rel="noopener">Messenger</a>
           </div>
+        </div>
+        <div class="site-meta">
+          <span>Page updated</span>
+          <span>Google Sites</span>
+          <span>Report abuse</span>
         </div>
         <div class="footer-inner fine-print">Copyright &copy; 2026 Creacion Architecture. All Rights Reserved.</div>
       </footer>
