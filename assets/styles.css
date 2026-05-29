@@ -596,8 +596,9 @@ button.button:hover {
 .google-exterior-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
-  margin: 34px auto 18px;
+  column-gap: 28px;
+  row-gap: 24px;
+  margin: 40px auto 30px;
 }
 
 .google-exterior-grid img,
