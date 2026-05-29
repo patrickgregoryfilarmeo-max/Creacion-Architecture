@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Creacion Architecture</title>
+  <meta name="description" content="Book a free consultation with Creacion Architecture and share your project details.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/site.js" defer></script>
+</head>
+<body>
+  <div data-site-header></div>
+
+  <main>
+    <section class="hero" style="min-height: 460px; --hero-image: url('https://lh3.googleusercontent.com/sitesv/AA5AbUCpArawbgpbvGEaWwJSlYHbs24TrY6KEp2zr-GOetWwV7iu7Wh26m6CC2IY9InH-QdiplHDX7twew_mpu9EPfQsH9fH1i2hpD9weRh1ADUNVWeoFpc3oNiKD8uV7MEtUd3lnPVHxar9MBOlSXzgIp7yMZIj_Bj1ATpKG7EQdInscXv8tZjAcnFZ5iI=w16383');">
+      <div class="hero-inner">
+        <div class="hero-content">
+          <div class="eyebrow">Contact</div>
+          <h1>Book a Free Consultation</h1>
+          <p class="lead">Share your project details and we will provide clear direction from concept planning to design development.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="contact-grid">
+        <div>
+          <div class="eyebrow">Request a Quote</div>
+          <h2>Tell us about your dream project.</h2>
+          <p class="lead">Our design fee depends on the project type, size, scope, site conditions, and location. To prepare a quotation, kindly share the following details.</p>
+          <div class="card">
+            <h3>Your Design Consultant</h3>
+            <p><strong>Call now:</strong> <a href="tel:+639272463244">+63 927 246 3244</a></p>
+            <p><strong>Email:</strong> <a href="mailto:design@creacionarchitecture.com">design@creacionarchitecture.com</a></p>
+            <p><strong>Location:</strong> Quezon City</p>
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          data-contact-form
+          id="form"
+          action="https://script.google.com/macros/s/AKfycbzxtsuHlVzdJK-3X7Rrq7QrMnL5SIsgNsgnTYwZ82gu6DmEl-n_PJod_OwVtp8dYkarJA/exec"
+          method="POST"
+          target="hidden_iframe"
+        >
+          <div class="form-grid">
+            <label>Name
+              <input type="text" name="name" placeholder="Name" autocomplete="name" required>
+            </label>
+            <label>Email
+              <input type="email" name="email" placeholder="Email" autocomplete="email" required>
+            </label>
+            <label>Contact Number
+              <input type="tel" name="contact" placeholder="Contact Number" autocomplete="tel" required>
+            </label>
+            <label>Project Type
+              <input type="text" name="project" placeholder="Residential / Commercial / etc." required>
+            </label>
+            <label>No. of Floors
+              <input type="number" name="floors" placeholder="No. of Floors" min="1" required>
+            </label>
+            <label>Total Floor Area
+              <input type="text" name="total" placeholder="Total Floor Area" required>
+            </label>
+            <label>Lot Area
+              <input type="text" name="lot" placeholder="Lot Area" required>
+            </label>
+            <label>Site Address
+              <input type="text" name="site" placeholder="Site Address" required>
+            </label>
+            <label class="full">Bare or With Existing Structure
+              <input type="text" name="bare" placeholder="Bare or with Existing Structure" required>
+            </label>
+            <label class="full">Additional Notes
+              <textarea name="message" placeholder="Tell us anything else we should know."></textarea>
+            </label>
+          </div>
+
+          <div class="actions">
+            <button class="button" type="submit">Submit Project Details</button>
+          </div>
+          <div class="success-message" id="successMsg" data-success-message>
+            Your details have been sent successfully. Kindly wait for us to contact you. Thank you!
+          </div>
+          <iframe name="hidden_iframe" title="Contact form submission" style="display:none;"></iframe>
+        </form>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="section-inner split">
+        <div>
+          <div class="eyebrow">Schedule</div>
+          <h2>Prefer to choose a time?</h2>
+          <p class="lead">Use the calendar to book a 30-minute consultation slot.</p>
+        </div>
+        <div class="card">
+          <iframe
+            src="https://calendly.com/creacionarchitecture/30min?month=2026-05"
+            title="Calendly booking calendar"
+            width="100%"
+            height="680"
+            style="border:0; border-radius: 18px;"
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+</body>
+</html>
