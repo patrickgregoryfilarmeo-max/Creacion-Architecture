@@ -25,8 +25,11 @@
       <div class="site-header">
         <nav class="nav" aria-label="Main navigation">
           <a class="brand" href="/home" aria-label="Creacion Architecture home">
-            Creacion Architecture
-            <small>Architecture &amp; Design Studio</small>
+            <span class="brand-mark" aria-hidden="true">CA</span>
+            <span class="brand-copy">
+              Creacion Architecture
+              <small>Architecture &amp; Design Studio</small>
+            </span>
           </a>
           <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
           <div class="nav-links" id="main-nav">
