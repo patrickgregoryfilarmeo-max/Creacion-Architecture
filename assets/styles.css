@@ -745,15 +745,15 @@ button.button:hover {
 }
 
 .google-image-button-book {
-  width: min(430px, 100%);
+  width: min(620px, 100%);
 }
 
 .google-image-button-view {
-  width: 205px;
+  width: 310px;
 }
 
 .google-image-button-contact {
-  width: 170px;
+  width: 260px;
 }
 
 .section.compact {
