@@ -421,6 +421,18 @@ button.button:hover {
   padding-top: 64px;
 }
 
+.button-image-section {
+  background: #2f2f2f;
+  padding: 0;
+}
+
+.button-image-section img {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: block;
+}
+
 .section.compact {
   padding: 58px 0;
 }
