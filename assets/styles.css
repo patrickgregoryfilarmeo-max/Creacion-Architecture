@@ -573,14 +573,15 @@ button.button:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 34px;
+  min-width: 345px;
+  min-height: 48px;
   border: 3px solid #202124;
   color: #202124;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 1;
-  padding: 8px 18px;
+  padding: 7px 12px;
   text-decoration: none;
 }
 
