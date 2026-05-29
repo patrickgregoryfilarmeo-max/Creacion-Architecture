@@ -619,8 +619,22 @@ button.button:hover {
   margin: 28px auto 18px;
 }
 
+.google-interior-row figure {
+  margin: 0;
+}
+
 .google-interior-row img {
   aspect-ratio: 1 / 1;
+}
+
+.google-interior-row figcaption {
+  margin-top: 16px;
+  color: #202124;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
 }
 
 .google-contact-layout {
