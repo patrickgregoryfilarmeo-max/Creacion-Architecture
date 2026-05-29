@@ -464,7 +464,8 @@ button.button:hover {
 }
 
 .consultation-copy {
-  max-width: 960px;
+  width: calc(100% - 120px);
+  max-width: none;
   margin: 0 auto 36px;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 11pt;
@@ -872,6 +873,10 @@ textarea.filled {
 
   .hero-submark {
     letter-spacing: 0.35em;
+  }
+
+  .consultation-copy {
+    width: calc(100% - 40px);
   }
 
   .split,
