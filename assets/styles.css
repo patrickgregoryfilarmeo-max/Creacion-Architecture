@@ -557,7 +557,7 @@ button.button:hover {
 .google-home-wrap h2 {
   margin: 0 0 12px;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -565,7 +565,7 @@ button.button:hover {
 .google-home-wrap > p {
   margin: 0 0 20px;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 1.4;
 }
 
@@ -574,10 +574,11 @@ button.button:hover {
   align-items: center;
   justify-content: center;
   min-height: 34px;
-  border: 1px solid #202124;
+  border: 3px solid #202124;
   color: #202124;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 15px;
+  font-weight: 500;
   line-height: 1;
   padding: 8px 18px;
   text-decoration: none;
