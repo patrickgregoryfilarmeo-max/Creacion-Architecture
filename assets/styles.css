@@ -698,24 +698,25 @@ button.button:hover {
 .home-cta-band {
   background: #2f2f2f;
   color: #ffffff;
-  padding: 32px 24px 28px;
+  padding: 48px 24px 42px;
   text-align: center;
 }
 
 .home-cta-band h2 {
-  margin: 0 0 18px;
+  margin: 0 0 20px;
+  color: #ffffff;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 1.25;
 }
 
 .home-cta-band p {
-  max-width: 720px;
+  max-width: 860px;
   margin: 0 auto;
-  color: rgba(255, 255, 255, 0.86);
+  color: #ffffff;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   line-height: 1.45;
 }
 
@@ -1032,33 +1033,33 @@ textarea.filled {
 .site-footer {
   background: #2f2f2f;
   color: #ffffff;
-  padding: 26px 24px 32px;
+  padding: 46px 24px 44px;
 }
 
 .footer-main {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(220px, 0.72fr);
   gap: 120px;
-  width: min(900px, calc(100% - 48px));
-  margin: 0 auto 28px;
+  width: min(1040px, calc(100% - 48px));
+  margin: 0 auto 38px;
   align-items: start;
 }
 
 .footer-logo img {
-  width: 138px;
+  width: 210px;
   height: auto;
 }
 
 .footer-contact {
   color: #ffffff;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 1.55;
   text-align: left;
 }
 
 .footer-contact p {
-  margin: 0 0 9px;
+  margin: 0 0 12px;
 }
 
 .footer-main a,
@@ -1069,7 +1070,7 @@ textarea.filled {
 .socials {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 14px;
   justify-content: center;
 }
 
@@ -1077,20 +1078,20 @@ textarea.filled {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 18px;
-  height: 18px;
+  width: 28px;
+  height: 28px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 999px;
   background: #ffffff;
   color: #2f2f2f;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1;
 }
 
 .socials img {
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   object-fit: contain;
 }
 
@@ -1098,8 +1099,8 @@ textarea.filled {
   border-top: 0;
   color: rgba(255, 255, 255, 0.86);
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 9px;
-  margin: 0 0 16px;
+  font-size: 12px;
+  margin: 0 0 22px;
   padding: 0;
   text-align: center;
 }
