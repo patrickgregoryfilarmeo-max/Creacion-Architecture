@@ -749,11 +749,11 @@ button.button:hover {
 }
 
 .google-image-button-view {
-  width: 520px;
+  width: min(1040px, 100%);
 }
 
 .google-image-button-contact {
-  width: 430px;
+  width: min(1040px, 100%);
 }
 
 .section.compact {
