@@ -171,31 +171,6 @@ p {
   content: "";
 }
 
-.search-mark {
-  position: relative;
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 18px;
-  height: 18px;
-  border: 1.5px solid currentColor;
-  border-radius: 999px;
-  text-indent: -999px;
-  opacity: 0.82;
-}
-
-.search-mark::after {
-  position: absolute;
-  right: -5px;
-  bottom: -2px;
-  width: 8px;
-  height: 1.5px;
-  border-radius: 999px;
-  background: currentColor;
-  content: "";
-  transform: rotate(45deg);
-  transform-origin: left center;
-}
-
 .menu-toggle {
   display: none;
   border: 1px solid var(--line);

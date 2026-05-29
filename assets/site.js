@@ -46,7 +46,6 @@
                 `;
               })
               .join("")}
-            <span class="search-mark" aria-hidden="true">Search</span>
           </div>
         </nav>
       </div>
