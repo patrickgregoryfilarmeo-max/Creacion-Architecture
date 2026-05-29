@@ -464,8 +464,8 @@ button.button:hover {
 }
 
 .consultation-copy {
-  width: calc(100% - 120px);
-  max-width: none;
+  width: calc(100% - 80px);
+  max-width: 1480px;
   margin: 0 auto 36px;
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 11pt;
