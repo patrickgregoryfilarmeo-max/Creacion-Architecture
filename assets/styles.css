@@ -204,6 +204,7 @@ p {
     linear-gradient(90deg, rgba(33, 33, 33, 0.72), rgba(33, 33, 33, 0.28)),
     var(--hero-image, linear-gradient(135deg, #222, #777));
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
 }
@@ -213,6 +214,10 @@ p {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)),
     var(--hero-image, linear-gradient(135deg, #222, #777));
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-spacer {
@@ -759,6 +764,10 @@ textarea.filled {
   .hero-spacer {
     min-height: 70vh;
     height: 70vh;
+  }
+
+  .hero.hero-cover {
+    background-attachment: scroll;
   }
 
   .hero-cover-content {
