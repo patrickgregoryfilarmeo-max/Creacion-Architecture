@@ -730,6 +730,32 @@ button.button:hover {
   color: #202124;
 }
 
+.google-image-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.google-image-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.google-image-button-book {
+  width: min(430px, 100%);
+}
+
+.google-image-button-view {
+  width: 205px;
+}
+
+.google-image-button-contact {
+  width: 170px;
+}
+
 .section.compact {
   padding: 58px 0;
 }
