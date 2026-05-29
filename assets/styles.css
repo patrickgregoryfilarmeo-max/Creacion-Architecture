@@ -557,15 +557,15 @@ button.button:hover {
 .google-home-wrap h2 {
   margin: 0 0 12px;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 30px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 1.25;
 }
 
 .google-home-wrap > p {
-  margin: 0 0 20px;
+  margin: 0 0 50px;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 11px;
+  font-size: 17px;
   line-height: 1.4;
 }
 
@@ -573,15 +573,14 @@ button.button:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 345px;
-  min-height: 48px;
+  min-height: 42px;
   border: 3px solid #202124;
   color: #202124;
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1;
-  padding: 7px 12px;
+  padding: 5px 10px;
   text-decoration: none;
 }
 
