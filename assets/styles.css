@@ -440,16 +440,18 @@ button.button:hover {
   max-width: none;
   margin: 0 0 18px;
   color: #202124;
-  font-size: clamp(1.05rem, 1.35vw, 1.35rem);
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 19px;
   font-weight: 700;
   line-height: 1.3;
 }
 
 .intro-band p {
-  max-width: 560px;
+  max-width: 760px;
   margin: 0 auto;
   color: #202124;
-  font-size: clamp(0.74rem, 0.85vw, 0.86rem);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 11px;
   line-height: 1.55;
 }
 
