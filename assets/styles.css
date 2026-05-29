@@ -89,6 +89,44 @@ p {
   padding: 8px 0;
 }
 
+.nav-dropdown {
+  position: relative;
+  display: grid;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: -14px;
+  display: grid;
+  min-width: 240px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(33, 33, 33, 0.98);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 120ms ease, transform 120ms ease;
+  z-index: 50;
+}
+
+.dropdown-menu a {
+  padding: 10px 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.78rem;
+}
+
+.dropdown-menu a:last-child {
+  border-bottom: 0;
+}
+
+.nav-dropdown:hover .dropdown-menu,
+.nav-dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
 .nav-links a[aria-current="page"],
 .nav-links a:hover {
   color: #ffffff;
@@ -375,6 +413,14 @@ button.button:hover {
   padding: 34px;
 }
 
+.quote-panel.image-cta {
+  background:
+    linear-gradient(0deg, rgba(33, 33, 33, 0.82), rgba(33, 33, 33, 0.45)),
+    var(--tile-image, linear-gradient(120deg, #444, #777));
+  background-size: cover;
+  background-position: center;
+}
+
 .google-copy {
   display: grid;
   gap: 22px;
@@ -411,6 +457,10 @@ button.button:hover {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+}
+
+.image-pair-tight {
+  margin-top: 20px;
 }
 
 .image-tile {
@@ -552,9 +602,24 @@ textarea.filled {
 }
 
 .socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 999px;
-  padding: 8px 12px;
+  background: #5f6368;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.socials img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
 }
 
 .fine-print {
@@ -585,6 +650,15 @@ textarea.filled {
 
   .nav-links.is-open {
     display: flex;
+  }
+
+  .dropdown-menu {
+    position: static;
+    min-width: 100%;
+    border: 0;
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
   }
 
   .hero {
