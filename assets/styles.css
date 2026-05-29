@@ -542,6 +542,162 @@ button.button:hover {
   text-align: left;
 }
 
+.google-home-section {
+  background: #ffffff;
+  color: #202124;
+  padding: 36px 24px 34px;
+  text-align: center;
+}
+
+.google-home-wrap {
+  width: min(520px, calc(100% - 24px));
+  margin: 0 auto;
+}
+
+.google-home-wrap h2 {
+  margin: 0 0 8px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.google-home-wrap > p {
+  margin: 0 0 12px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.google-outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  border: 1px solid #202124;
+  color: #202124;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1;
+  padding: 5px 13px;
+  text-decoration: none;
+}
+
+.google-exterior-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px auto 10px;
+}
+
+.google-exterior-grid img,
+.google-interior-row img,
+.google-contact-images img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.google-exterior-grid img {
+  aspect-ratio: 1.34 / 1;
+}
+
+.google-interior-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin: 18px auto 10px;
+}
+
+.google-interior-row img {
+  aspect-ratio: 1 / 1;
+}
+
+.google-contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+  gap: 14px;
+  align-items: start;
+  margin-top: 18px;
+  text-align: left;
+}
+
+.google-home-form {
+  padding: 12px;
+}
+
+.google-home-form h2 {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.google-home-form h4,
+.google-home-form p {
+  font-size: 9px;
+  line-height: 1.35;
+  margin-bottom: 8px;
+}
+
+.google-home-form .form-grid {
+  gap: 5px;
+}
+
+.google-home-form input {
+  border-radius: 0;
+  background: #e9e9e9;
+  font-size: 9px;
+  padding: 5px 7px;
+}
+
+.google-home-form .actions {
+  margin-top: 8px;
+}
+
+.google-home-form .button {
+  min-height: 22px;
+  width: 100%;
+  border-radius: 0;
+  font-size: 9px;
+  padding: 5px 8px;
+}
+
+.google-contact-images {
+  display: grid;
+  gap: 8px;
+}
+
+.google-contact-images img {
+  aspect-ratio: 1.62 / 1;
+}
+
+.home-cta-band {
+  background: #2f2f2f;
+  color: #ffffff;
+  padding: 28px 24px 24px;
+  text-align: center;
+}
+
+.home-cta-band h2 {
+  margin: 0 0 8px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+.home-cta-band p {
+  max-width: 620px;
+  margin: 0 auto 12px;
+  color: rgba(255, 255, 255, 0.86);
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.google-outline-button-light {
+  border-color: rgba(255, 255, 255, 0.88);
+  color: #ffffff;
+}
+
 .section.compact {
   padding: 58px 0;
 }
@@ -941,6 +1097,15 @@ textarea.filled {
   }
 
   .quick-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .google-home-wrap {
+    width: min(560px, calc(100% - 12px));
+  }
+
+  .google-contact-layout,
+  .google-interior-row {
     grid-template-columns: 1fr;
   }
 

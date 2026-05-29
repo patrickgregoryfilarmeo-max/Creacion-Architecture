@@ -66,30 +66,71 @@
       </div>
     </section>
 
-    <section class="section alt compact">
-      <div class="section-inner">
-        <div class="split">
-          <div>
-            <h2>Where Your Dream Home Begins.</h2>
-            <p class="lead">If you would like to discuss with us regarding your project, feel free to get in touch with us.</p>
-            <div class="service-list">
-              <div class="service-pill">Architectural Design</div>
-              <div class="service-pill">Architectural Interiors</div>
-              <div class="service-pill">Engineering Design</div>
-              <div class="service-pill">Project Management</div>
+    <section class="google-home-section">
+      <div class="google-home-wrap">
+        <h2>Where Your Dream Home Begins.</h2>
+        <p>If you would like to discuss with us regarding your project, feel free to get in touch with us.</p>
+        <a class="google-outline-button" href="/contact">Book a Free Consultation</a>
+
+        <div class="google-exterior-grid" aria-label="Featured exterior projects">
+          <img src="/assets/images/google-gallery-exterior-1.jpg" alt="Three-storey residential exterior">
+          <img src="/assets/images/google-gallery-exterior-2.jpg" alt="Modern residential exterior">
+          <img src="/assets/images/google-gallery-exterior-3.jpg" alt="Contemporary house exterior">
+          <img src="/assets/images/google-gallery-exterior-4.jpg" alt="Architectural exterior facade">
+        </div>
+
+        <a class="google-outline-button" href="/projects">View Projects</a>
+
+        <div class="google-interior-row" aria-label="Featured interior projects">
+          <img src="/assets/images/google-gallery-interior-1.jpg" alt="Dining room interior">
+          <img src="/assets/images/google-gallery-interior-2.jpg" alt="Living room interior">
+          <img src="/assets/images/google-gallery-interior-3.jpg" alt="Bedroom interior">
+          <img src="/assets/images/google-gallery-interior-4.jpg" alt="Kitchen interior">
+        </div>
+
+        <a class="google-outline-button" href="/contact">Contact Us</a>
+
+        <div class="google-contact-layout">
+          <form
+            class="contact-form quote-form google-home-form"
+            data-contact-form
+            action="https://script.google.com/macros/s/AKfycbzxtsuHlVzdJK-3X7Rrq7QrMnL5SIsgNsgnTYwZ82gu6DmEl-n_PJod_OwVtp8dYkarJA/exec"
+            method="POST"
+            target="home_hidden_iframe"
+          >
+            <h2>Request a Quote</h2>
+            <h4>Our design fee depends on the project type, size, scope, site conditions, and location.</h4>
+            <p>To prepare a quotation for your dream project, kindly share the following:</p>
+            <div class="form-grid">
+              <input type="text" name="name" placeholder="Name" autocomplete="name" required>
+              <input type="email" name="email" placeholder="Email" autocomplete="email" required>
+              <input type="tel" name="contact" placeholder="Contact Number" autocomplete="tel" required>
+              <input type="text" name="project" placeholder="Project Type (Residential / Commercial / etc.)" required>
+              <input type="number" name="floors" placeholder="No. of Floors" min="1" required>
+              <input type="text" name="total" placeholder="Total Floor Area" required>
+              <input type="text" name="lot" placeholder="Lot Area" required>
+              <input type="text" name="site" placeholder="Site Address" required>
+              <input type="text" name="bare" placeholder="Bare or with Existing Structure" required>
             </div>
-            <div class="image-pair image-pair-tight" aria-label="Featured architecture visuals">
-              <div class="image-tile" style="--tile-image: url('https://lh3.googleusercontent.com/sitesv/AA5AbUAd5SmwlkVPMadcqk60nHk8CWQRGiGgSwIsRn58Nhtt4jTWGd4xoeiApp2JDQMOlOd9hYvY3Wh83FzAGoB2VTktg1nFuGDPbv4d3icO-VkWztdX1xwXjR-w=w16383');"></div>
-              <div class="image-tile" style="--tile-image: url('https://lh3.googleusercontent.com/sitesv/AA5AbUDggBuv9-ycW7BiQyZNVSocv6LRvCczwv2GygN9jRZPW3ckVta9AMYpkikRaa36Ibe3gt3BJlB1k7bjg2N871AKzsESl25cUgQf_9lAZwX-Q5t7-Bkdv0-8=w16383');"></div>
+            <div class="actions">
+              <button class="button" type="submit">Submit Project Details</button>
             </div>
-          </div>
-          <div class="quote-panel image-cta" style="--tile-image: url('https://lh3.googleusercontent.com/sitesv/AA5AbUDXfawIz9urH24p-cYRodAFD3YEYQj-mzNr52yY7dpL4oGxT3rUhRPJUUMjm681re29cPmCWWE8LqFtl7j6IcwwRngoKjFUh4CZ92ELkdntQAcS0omri5A7=w16383');">
-            <h3>Ready for your dream home?</h3>
-            <p>From initial consultation to final design, we guide you through every step of creating a home that is uniquely yours, carefully planned, beautifully executed, and designed for lasting comfort.</p>
-            <a class="button" href="/contact">Contact Us</a>
+            <div class="success-message" data-success-message>Your details have been sent successfully. Kindly wait for us to contact you. Thank you!</div>
+            <iframe name="home_hidden_iframe" title="Contact form submission" style="display:none;"></iframe>
+          </form>
+
+          <div class="google-contact-images" aria-label="Contact section images">
+            <img src="/assets/images/google-contact-exterior.jpg" alt="Modern residential exterior">
+            <img src="/assets/images/google-contact-interior.jpg" alt="Bedroom interior">
           </div>
         </div>
       </div>
+    </section>
+
+    <section class="home-cta-band">
+      <h2>Ready for your dream home?</h2>
+      <p>From initial consultation to final design, we guide you through every step of creating a home that is uniquely yours, carefully planned, beautifully executed, and designed for lasting comfort.</p>
+      <a class="google-outline-button google-outline-button-light" href="/contact">Book a Free Consultation</a>
     </section>
   </main>
 
