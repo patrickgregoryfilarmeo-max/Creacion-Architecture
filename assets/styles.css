@@ -453,6 +453,7 @@ button.button:hover {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 11pt;
   line-height: 1.55;
+  text-align: left;
 }
 
 .section.compact {
